@@ -1,0 +1,68 @@
+/* Naming Conventions:
+    Khebab Case --> font-family-size
+    Camel Case --> fontFamilySize
+*/
+
+/*Kinukuha ito sa font google website doon sa import na napili mo*/
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+.font-family-size {
+    font-family:"Kalnia Glaze", serif;
+    font-size: 39px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.center-align {
+    text-align:center;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.line-height {
+    line-height: 10;
+}
+
+.letter-spacing{
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    text-transform:uppercase;
+    text-indent: 30px;
+
+}
+
+.text-shadow{
+/* 
+    1st = Horizontal
+    2nd = Vertical
+    3rd = Blur effect/ Blur radius
+     */
+    text-shadow: 5px 10px 2px rgb(13, 150, 13);
+}
+
+.text-overflow {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 150px;
+}
+
+
+
+
+
+
+
+

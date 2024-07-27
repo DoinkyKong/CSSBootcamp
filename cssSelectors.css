@@ -1,0 +1,81 @@
+/* Element Selector */
+span{
+    color:violet;
+}
+
+/* Class Selector */
+.class-name{
+    color:red;
+}
+
+/* Id-Selector */
+#id-name{
+    color:orange;
+}
+
+/* Universal Selector*/
+* {
+    font-size: 25px;
+}
+
+/* Attribute Selector*/
+/* Targeting all the href*/
+[href] {
+    color:olive;
+}
+
+a[href="www.example.com"]{
+    color:indigo;
+}
+
+/*ID Name*/
+a[ id="tag"]{
+    color: purple;
+}
+
+/*Grouping Selector*/
+h1, .parag, h2{
+    color:pink;
+}
+
+
+/*Descendant Selector*/
+.ancestor h3{
+    color: red;
+}
+
+.ancestor p{
+    color: red;
+}
+
+/*Pseudo-classes*/
+button:hover {
+    background-color: coral;
+    color: blue;
+}
+
+.pseudo:visited{
+    color: green;
+    background-color: coral;
+}
+
+/*Pseudo-elements*/
+#pseudo-element::after {
+    content:"This is a paragraph after.";
+    color: pink;
+}
+
+#pseudo-element::before {
+    content:"This is a paragraph after.";
+    color: rgb(226, 24, 57);
+}
+
+/*Specificity*/
+/*Inline Style > ID > Class > specificity selector*/
+#id {
+    color: violet;
+}
+
+.class {
+    color: indianred;
+}
